@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>phcampp - Upamento de Contas</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #0b0b0b;
+            color: #ffffff;
+        }
+        header {
+            background: linear-gradient(90deg, #ff0000, #000);
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            text-shadow: 2px 2px 5px #000;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #ff0000;
+        }
+        .container {
+            padding: 20px;
+        }
+        .section-title {
+            text-align: center;
+            color: #ff0000;
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+        .game-images {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .game-images img {
+            width: 150px;
+            height: auto;
+            margin: 10px;
+            border: 2px solid #ff0000;
+            border-radius: 10px;
+            transition: transform 0.3s;
+        }
+        .game-images img:hover {
+            transform: scale(1.05);
+        }
+        .contact {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .discord-banner {
+            width: 100%;
+            max-width: 600px;
+        }
+        footer {
+            background: #222;
+            padding: 10px;
+            text-align: center;
+        }
+        .watermark {
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            color: rgba(255, 255, 255, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>phcampp - Upamento de Contas</h1>
+        <nav>
+            <a href="#jogos">Jogos</a>
+            <a href="#contato">Contato</a>
+            <a href="#feedback">Feedback</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h2 class="section-title" id="jogos">Jogos Disponíveis</h2>
+        <div class="game-images">
+            <img src="imagens/blood-strike.jpg" alt="Blood Strike">
+            <img src="imagens/free-fire.jpg" alt="Free Fire">
+            <img src="imagens/fortnite.jpg" alt="Fortnite">
+            <img src="imagens/roblox.jpg" alt="Roblox">
+            <img src="imagens/standoff2.jpg" alt="Standoff 2">
+        </div>
+
+        <div class="contact" id="contato">
+            <h2 class="section-title">Entre em Contato</h2>
+            <p>Para mais informações sobre preços, entre em contato!</p>
+            <a href="https://discord.gg/bgWEqmFw" target="_blank">
+                <img src="https://discordapp.com/api/guilds/81384788765712384/widget.png?style=banner2" alt="Discord" class="discord-banner">
+            </a>
+            <p>Preços a partir de R$ 19,90!</p>
+        </div>
+
+        <div class="feedback" id="feedback">
+            <h2 class="section-title">Feedback dos Clientes</h2>
+            <p>Deixe seu comentário sobre nossos serviços!</p>
+            <!-- Aqui você pode adicionar um formulário ou uma seção para feedback -->
+        </div>
+    </div>
+
+    <div class="watermark">phcampp</div>
+
+    <footer>
+        <p>&copy; 2024 phcampp - Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
